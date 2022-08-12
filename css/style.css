@@ -37,6 +37,19 @@ body {
   align-content: center;
 }
 
+.fixarRodape {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background: #0A3871;
+  top: 1019px;
+  right: 1px;
+  height: 83px;
+  width: 1445px;
+  border-radius: 16px 16px 16px 16px;
+}
+
 #iconePrincipal {
   position: absolute;
   width: 31.09px;
@@ -99,6 +112,20 @@ body {
   left: 591px;
 }
 
+#bntCopiarTexto {
+  position: absolute;
+  padding: 24px;
+  gap: 8px;
+  width: 328px;
+  border: 1px solid #c6c6c7;
+  border-radius: 24px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  bottom: 99px;
+  left: 43px;
+}
+
 #iconeAviso {
   position: absolute;
   left: 240px;
@@ -159,4 +186,67 @@ body {
   flex-grow: 0;
   top: 562px;
   left: 40px;
+}
+
+#iconeLinkedin {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 50px;
+  top: 13px;
+}
+
+#iconeGithub {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 50px;
+  top: 48px;
+}
+
+#paragrafoRodapeLinkedin {
+  position: absolute;
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  color: #B2BABB;
+  left: 91px;
+  top: 2px;
+}
+
+#paragrafoRodapeGithub {
+  position: absolute;
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  color: #B2BABB;
+  left: 91px;
+  top: 38px;
+}
+
+#paragrafoRodape {
+  position: absolute;
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  color: #B2BABB;
+  left: 978px;
+  top: 19px;
+}
+
+#recebeMensagem {
+  position: absolute;
+
+  height: 692px;
+  left: 11px;
+  top: 18px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #495057;
 }
