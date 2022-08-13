@@ -33,6 +33,11 @@ function codificar() {
       return;
     }
   }
+
+  if(textEntrada == true){
+    return textNovaSaida;
+  }
+
   textoRecebe.innerHTML = textNovaSaida;
   textoSecreto.value = "";
   textoSecreto.focus();
@@ -97,16 +102,10 @@ function copiar() {
       function () {
         alert("Falha ao copiar. Tente novamente mais tarde ;)"); // error
       });
+    
+  textoSecreto.focus();
 }
-
-function redirecionaPage() {
-  window.location.replace("/decondificador.html");
-
-}
-
 
 bntCriptorgrafa.onclick = codificar;
-//bntCriptorgrafa.addEventListener("click", redirecionaPage);
 bntDescriptorgrafa.onclick = descriptografar;
 bntCopiar.onclick = copiar;
-

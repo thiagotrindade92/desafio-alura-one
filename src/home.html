@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Desafio Orecle One - Alura</title>
   <link rel="stylesheet" href="css/style.css">
+  <link href="/dist/output.css" rel="stylesheet">
 </head>
 <body>
 
@@ -13,7 +14,9 @@
   </div>
       <div class="card">   
         <div>
-              <img id="iconeCard" src="assets/iconeCard.png" alt="">
+              <img id="iconeCard" src="./assets/iconeCard.png" alt="" >
+              <textarea name="" id="recebeMensagem" cols="30" rows="10" hidden></textarea>
+              <button id="bntCopiarTexto" hidden>Copiar</button>
         </div>
           <div>
               <p id="paragrafoMenssagem">Nenhuma menssagem encontrada</p>
@@ -22,8 +25,8 @@
       </div>
             <div class="textoEbnt">
                     <input id="inputMensagemSecreta" type="text" placeholder="Digite seu texto">
-                    <img id="iconeAviso" src="assets/iconeAviso.png" alt=""> <p id="paragrafoAviso">Apenas letra minuscúlas e sem acento.</p>
-                    <button id="bntCriptor" type="submit" >Criptorgrafar</button>
+                    <img id="iconeAviso" src="./assets/iconeAviso.png" alt=""> <p id="paragrafoAviso">Apenas letra minuscúlas e sem acento.</p>
+                    <button  id="bntCriptor" type="submit" >Criptorgrafar</button>
                     <button id="bntDescriptor" type="submit">Descriptorgrafar</button>
             </div>   
 
@@ -31,12 +34,9 @@
               
 </div>
 <footer class="fixarRodape">
-  <a href="https://www.linkedin.com/in/thiago-trindade-351892208"><img id="iconeLinkedin" src="assets/linkedin.png"></a>
-  <a href="https://github.com/thiagotrindade92"><img id="iconeGithub" src="assets/github.png"></a>
+  <a href="https://www.linkedin.com/in/thiago-trindade-351892208"><img id="iconeLinkedin" src="./assets/linkedin.png""></a>
+  <a href="https://github.com/thiagotrindade92"><img id="iconeGithub" src="./assets/github.png"></a>
   <p id="paragrafoRodape" >Copyright &copy; 2022 ThiagoTrindade Cod. Todos os direitos reservados.</p>
-  <p id="paragrafoRodapeLinkedin">Meu linkedin click no icon</p>
-  <p id="paragrafoRodapeGithub">Meu github click no icon</p>
-
 </footer>
 
 <script src="js/scritp.js"></script>
