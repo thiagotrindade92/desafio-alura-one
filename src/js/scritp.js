@@ -41,6 +41,14 @@ function codificar() {
   textoRecebe.innerHTML = textNovaSaida;
   textoSecreto.value = "";
   textoSecreto.focus();
+  
+  bntCopiar.style.display = "inline-block";
+  if(document.getElementById("ocultar").style.display === "none") {
+    document.getElementById("mostrar").style.display = "block";
+  } else {
+    document.getElementById("mostrar").style.display = "block";
+    document.getElementById("ocultar").style.display = "none";
+  }
 }
 
 function descriptografar() {
@@ -89,6 +97,14 @@ function descriptografar() {
   textoRecebe.innerHTML = textNovaSaida;
   textoSecreto.value = "";
   textoSecreto.focus();
+  
+  bntCopiar.style.display = "inline-block";
+  if(document.getElementById("ocultar").style.display === "none") {
+    document.getElementById("mostrar").style.display = "block";
+  } else {
+    document.getElementById("mostrar").style.display = "block";
+    document.getElementById("ocultar").style.display = "none";
+  } 
 }
 
 function copiar() {

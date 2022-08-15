@@ -5,6 +5,10 @@ body {
   background: #E5E5E5;
 }
 
+.hidden{
+  display: none;
+}
+
 .content {
   display: flex;
   justify-content: center;
@@ -250,163 +254,20 @@ body {
   color: #495057;
 }
 
-@media (max-width: 1230px) {
-  #btn__copy{
-      height: 50px;
-      width: 200px;
+@media (max-width: 768px) {
+  #bntCopiarTexto{
+      height: 25px;
+      width: 150px;
   }
   #bntCriptor{
-      height: 50px;
+      height: 25;
       width: 150px;
       margin-right: 0px;
-      font-size: 19px;
+      font-size: 10px;
   }
   #bntDescriptor{
       height: 50px;
       width: 150px;
-      font-size: 19px;
+      font-size: 10px;
   }
-}
-@media (max-width: 912px) {
-  #btn__copy{
-      height: 70px;
-      width: 200px;
-      margin-top: 15px;
-  }
-  #texinputMensagemSecretat__input{
-      width: 90%;
-  }
-  #bntCriptor{
-      height: 50px;
-      width: 290px;
-      font-size: 24px;
-      margin: 0;
-
-  }
-  #bntDescriptor{
-      height: 50px;
-      width: 290px;
-      font-size: 23px;
-  }
-}
-@media (max-width: 768px) {
-  #btn__copy{
-      height: 80px;
-      width: 130px;
-      margin-top: 12px;
-  }
-  #text__input{
-      width: 85%;
-  }
-  #btn__cripto{
-      height: 50px;
-      width: 240px;
-      font-size: 24px;
-      margin: 0;
-  }
-  #btn__descripto{
-      height: 50px;
-      width: 240px;
-      font-size: 24px;
-  }
-}
-@media (max-width: 605px) {
-  #text__input{
-      width: 85%;
-  }
-  #btn__copy{
-      height: 75px;
-      width: 130px;
-  }
-  #btn__cripto{
-      height: 50px;
-      width: 180px;
-      font-size: 20px;
-      margin: 0;
-  }
-  #btn__descripto{
-      height: 50px;
-      width: 180px;
-      font-size: 20px;
-  }
-}
-@media (max-width: 490px){
-  .text__box{
-      width: 90%;
-  }
-  #text__input{
-      width: 85%;
-  }
-  #btn__copy{
-      height: 80px;
-      width: 80px;
-      margin-top: 12px;
-  }
-  #btn__cripto{
-      height: 50px;
-      width: 140px;
-      font-size: 18px;
-      margin: 0;
-      box-shadow: 3px 2px 0px black;
-  }
-  #btn__descripto{
-      height: 50px;
-      width: 140px;
-      font-size: 17px;
-      box-shadow: 3px 2px 0px black;
-  }
-  header {
-      margin: 0 auto;
-      margin-top: 32px;
-      height: fit-content;
-      width: 80%;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-evenly;
-  } 
-  header h1{
-      font-size: 32px;
-  } 
-  .info img{
-      height: 60px;
-      width: 60px;
-  }
-}
-
-@media (max-width: 350px){
-  .text__box{
-      width: 75%;
-  }
-  #text__input{
-      width: 85%;
-  }
-  #btn__copy{
-      height: 75px;
-      width: 80px;
-  }
-  #btn__cripto{
-      height: 50px;
-      width: 110px;
-      font-size: 16px;
-      margin: 0;
-      box-shadow: 3px 2px 0px black;
-  }
-  #btn__descripto{
-      height: 50px;
-      width: 110px;
-      font-size: 13px;
-      box-shadow: 3px 2px 0px black;
-  }
-  header {
-      margin: 0 auto;
-      margin-top: 32px;
-      height: fit-content;
-      width: 30%;
-      flex-wrap: wrap;
-  } 
-  header h1{
-      font-size: 32px;
-    
-  }
-
 }

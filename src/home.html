@@ -4,22 +4,22 @@
   <meta charset="UTF-8">
   <title>Desafio Orecle One - Alura</title>
   <link rel="stylesheet" href="css/style.css">
-  <link href="/dist/output.css" rel="stylesheet">
+  <link href="../dist/output.css" rel="stylesheet">
 </head>
 <body>
-
+  
 <div class="content" >
   <div id="iconePrincipal" >
       <img  src="assets/iconeAlura.png" alt="Desafio Alura">
   </div>
       <div class="card">   
-        <div>
-              <img id="iconeCard" src="./assets/iconeCard.png" alt="" >
-              <textarea name="" id="recebeMensagem" cols="30" rows="10" hidden></textarea>
-              <button id="bntCopiarTexto" hidden>Copiar</button>
+        <div id="mostrar" class="hidden" >
+              <textarea name="recebeMensagem" id="recebeMensagem" cols="30" rows="10"></textarea>
+              <button id="bntCopiarTexto" >Copiar</button>
         </div>
-          <div>
-              <p id="paragrafoMenssagem">Nenhuma menssagem encontrada</p>
+          <div id="ocultar">
+              <img id="iconeCard" src="./assets/iconeCard.png" alt="" >
+              <p id="paragrafoMenssagem" >Nenhuma menssagem encontrada</p>
               <p id="paragrafoTexto">Digite um texto em que você queira Criptorgrafar ou Descriptorgrafar.</p>
             </div>
       </div>
