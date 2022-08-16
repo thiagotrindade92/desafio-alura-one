@@ -1,45 +1,63 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
+
 <head>
   <meta charset="UTF-8">
   <title>Desafio Orecle One - Alura</title>
   <link rel="stylesheet" href="css/style.css">
   <link href="../dist/output.css" rel="stylesheet">
 </head>
+
 <body>
-  
-<div class="content" >
-  <div id="iconePrincipal" >
-      <img  src="assets/iconeAlura.png" alt="Desafio Alura">
+
+  <div class="container">
+    <main>
+      <div id="iconePrincipal" class="logo">
+        <a href="./home.html">
+          <img src="assets/iconeAlura.png"
+            class="absolute top-1/2 left-1/2 max-w-none -translate-x-1/2 -translate-y-1/2" width="30"
+            alt="Desafio Alura">
+        </a>
+      </div>
+    </main>
+    <div class="card max-w-none mx-auto">
+      <div id="mostrar" class="hidden">
+        <textarea name="recebeMensagem" id="recebeMensagem" width="150" cols="30" rows="10">
+              </textarea>
+        <button
+          class="transition ease-in-out delay-150 bg-slate-400 hover:-translate-y-1 hover:scale-110 hover:bg-slate-900 hover:text-white duration-150"
+          id="bntCopiarTexto">Copiar
+        </button>
+      </div>
+      <div id="ocultar">
+        <img id="iconeCard" src="./assets/iconeCard.png" alt="">
+        <p id="paragrafoMenssagem">Nenhuma menssagem encontrada</p>
+        <p id="paragrafoTexto">Digite um texto em que você queira Criptorgrafar ou Descriptorgrafar.</p>
+      </div>
+    </div>
+    <div class="textoEbnt">
+      <input id="inputMensagemSecreta" type="text" placeholder="Digite seu texto">
+      <img id="iconeAviso" src="./assets/iconeAviso.png" alt="">
+      <p id="paragrafoAviso">Apenas letra minuscúlas e sem acento.</p>
+      <button id="bntCriptor" class="" type="submit">Criptorgrafar</button>
+      <button id="bntDescriptor" type="submit">Descriptorgrafar</button>
+    </div>
+
   </div>
-      <div class="card">   
-        <div id="mostrar" class="hidden" >
-              <textarea name="recebeMensagem" id="recebeMensagem" cols="30" rows="10"></textarea>
-              <button id="bntCopiarTexto" >Copiar</button>
-        </div>
-          <div id="ocultar">
-              <img id="iconeCard" src="./assets/iconeCard.png" alt="" >
-              <p id="paragrafoMenssagem" >Nenhuma menssagem encontrada</p>
-              <p id="paragrafoTexto">Digite um texto em que você queira Criptorgrafar ou Descriptorgrafar.</p>
-            </div>
-      </div>
-            <div class="textoEbnt">
-                    <input id="inputMensagemSecreta" type="text" placeholder="Digite seu texto">
-                    <img id="iconeAviso" src="./assets/iconeAviso.png" alt=""> <p id="paragrafoAviso">Apenas letra minuscúlas e sem acento.</p>
-                    <button  id="bntCriptor" type="submit" >Criptorgrafar</button>
-                    <button id="bntDescriptor" type="submit">Descriptorgrafar</button>
-            </div>   
 
-      </div>
-              
-</div>
-<footer class="fixarRodape">
-  <a href="https://www.linkedin.com/in/thiago-trindade-351892208"><img id="iconeLinkedin" src="./assets/linkedin.png""></a>
-  <a href="https://github.com/thiagotrindade92"><img id="iconeGithub" src="./assets/github.png"></a>
-  <p id="paragrafoRodape" >Copyright &copy; 2022 ThiagoTrindade Cod. Todos os direitos reservados.</p>
-</footer>
+  </div>
+  <footer class="fixarRodape">
+    <div class="iconesRedeSocieal">
+      <a href="https://www.linkedin.com/in/thiago-trindade-351892208">
+        <img id="iconeLinkedin" src="./assets/linkedin.png""></a>
+        <a 
+        href=" https://github.com/thiagotrindade92">
+        <img id="iconeGithub" src="./assets/github.png"></a>
+    </div>
+    <p id="paragrafoRodape">Copyright &copy; 2022 ThiagoTrindade Cod. Todos os direitos reservados.</p>
+  </footer>
 
-<script src="js/scritp.js"></script>
+  <script src="js/scritp.js"></script>
 
 </body>
 
