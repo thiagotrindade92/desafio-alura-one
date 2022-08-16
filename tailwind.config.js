@@ -9,7 +9,13 @@ module.exports = {
       transitionProperty: {
         'height': 'height',
         'spacing': 'margin, padding',
-      }
+      },
+    screen: {
+      'mobile': '375px',
+      'tablet': '768px',
+      'desktop': '1440px'
+
+    }
     },
   },
   plugins: [],
