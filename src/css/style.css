@@ -1,6 +1,6 @@
 body {
   position: relative;
-  width: 1440px;
+  width: 100%;
   height: 1024px;
   background: #E5E5E5;
 }
@@ -262,111 +262,103 @@ textarea {
 
 }
 
-@media (max-width: 375px)
+/*Celular */
 
-/*Celular*/
-  {
-  body {
-    position: relative;
-    width: 100%;
+@media (min-width: 375px) and (max-width: 600px) {
+  
+  .card {
+    width: 359px;
+    height: 533px;
+    left: 8px;
+    top: 434px;
+ }
+ 
+ #iconeCard {
+  width: 100%;
+  height: 314px;
+  left: 0px;
+  top: 11px;
+ }
+ 
+ #paragrafoMenssagem {
+  top: 344px;
+  left: 11px;
+ }
+ 
+ #paragrafoTexto {
+  top: 411px;
+  left: 11px;
+ 
+ }
+ 
+ #inputMensagemSecreta {
+  top: 239px;
+  left: 55px;
+  width: 283px;
+  height: 36px;
+}
 
-  }
+ .iconesRedeSocieal {
+  position: absolute;
+  left: -26px;
+  top: -1px;
+  height: 73px;
+  bottom: 85px;
+  right: 4px;
+ }
+   
+ .fixarRodape{
+  top: 1355px;
+  height: 77px;
+  width: 371px;
+  left: 2px;
+}
+ 
+ #paragrafoRodape {
+    left: 99px;
+    top: 17px;
+ }
+ 
+#iconePrincipal {
+    top: 85px;
+    left: 47px;
+ }
+ 
+ #bntCopiarTexto {
+    left: 69px;
+    bottom: 33px;
+ }
 
-  footer {
-    text-align: center;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-end;
-  }
+ #bntCriptor {
+  left: 26px;
+  bottom: -138px;
+}
 
-  .logo {
-    margin: 40px 0 80px 30px;
-  }
+#bntDescriptor {
+  bottom: -231px;
+  left: 26px;
+}
 
-  .logo:hover {
-    margin: 30px 0 0 20px;
-    animation: expandir 1s;
-  }
+#paragrafoAviso {
+  left: 78px;
+  bottom: 618px;
+}
 
-  .fixarRodape {
-    top: 1800px;
+#iconeAviso {
+  left: 58px;
+  bottom: 619px;
+}
 
-  }
+#recebeMensagem {
+  left: 40px;
+  top: 3px;
+  width: 295px;
 
 }
 
+}
 
-
-@media screen and (min-width: 1440px) {
-
-  @media screen and (max-width: 375px){
-    .card {
-      background: white;
-      position: absolute;
-      border-radius: 32px;
-      width: 1072px;
-      height: 993px;
-      left: 230px;
-      top: 736px;
-    }
-    
-    #iconeCard {
-      width: 75%;
-      height: 699px;
-      left: 150px;
-      top: 41px;
-    }
-    
-    #paragrafoMenssagem {
-      top: 791px;
-      left: 384px;
-    }
-    
-    #paragrafoTexto {
-      top: 859px;
-      left: 372px;
-    
-    }
-    
-    #inputMensagemSecreta {
-      top: 363px;
-      left: 260px;
-      width: 1000px;
-      height: 72px;
-    }
-      
-    .iconesRedeSocieal {
-      position: absolute;
-      left: 5px;
-      top: 44px;
-      height: 73px;
-      bottom: 85px;
-      right: 4px;
-    }
-      
-    .fixarRodape{
-      top: 1974px;
-      height: 168px;
-    }
-    #paragrafoRodape {
-      left: 516px;
-      top: 74px;
-    }
-    
-    #iconePrincipal {
-      top: 206px;
-      left: 119px;
-    }
-    
-    #bntCopiarTexto {
-      left: 455px;
-    
-    }
-    
-  }
-  
 @media (max-width: 768px)
-
 /*Tablet*/
   {
     body {
@@ -476,8 +468,4 @@ textarea {
       bottom: 38px;
       left: 89px;
     }
-  
-}
-
-
 }
