@@ -295,73 +295,76 @@ textarea {
 
 }
 
-@media screen and (min-width: 375px) {
 
-.card {
-  background: white;
-  position: absolute;
-  border-radius: 32px;
-  width: 1072px;
-  height: 993px;
-  left: 230px;
-  top: 736px;
-}
 
-#iconeCard {
-  width: 75%;
-  height: 699px;
-  left: 150px;
-  top: 41px;
-}
+@media screen and (min-width: 1440px) {
 
-#paragrafoMenssagem {
-  top: 791px;
-  left: 384px;
-}
-
-#paragrafoTexto {
-  top: 859px;
-  left: 372px;
-
-}
-
-#inputMensagemSecreta {
-  top: 363px;
-  left: 260px;
-  width: 1000px;
-  height: 72px;
-}
+  @media screen and (max-width: 375px){
+    .card {
+      background: white;
+      position: absolute;
+      border-radius: 32px;
+      width: 1072px;
+      height: 993px;
+      left: 230px;
+      top: 736px;
+    }
+    
+    #iconeCard {
+      width: 75%;
+      height: 699px;
+      left: 150px;
+      top: 41px;
+    }
+    
+    #paragrafoMenssagem {
+      top: 791px;
+      left: 384px;
+    }
+    
+    #paragrafoTexto {
+      top: 859px;
+      left: 372px;
+    
+    }
+    
+    #inputMensagemSecreta {
+      top: 363px;
+      left: 260px;
+      width: 1000px;
+      height: 72px;
+    }
+      
+    .iconesRedeSocieal {
+      position: absolute;
+      left: 5px;
+      top: 44px;
+      height: 73px;
+      bottom: 85px;
+      right: 4px;
+    }
+      
+    .fixarRodape{
+      top: 1974px;
+      height: 168px;
+    }
+    #paragrafoRodape {
+      left: 516px;
+      top: 74px;
+    }
+    
+    #iconePrincipal {
+      top: 206px;
+      left: 119px;
+    }
+    
+    #bntCopiarTexto {
+      left: 455px;
+    
+    }
+    
+  }
   
-.iconesRedeSocieal {
-  position: absolute;
-  left: 5px;
-  top: 44px;
-  height: 73px;
-  bottom: 85px;
-  right: 4px;
-}
-  
-.fixarRodape{
-  top: 1974px;
-  height: 168px;
-}
-#paragrafoRodape {
-  left: 516px;
-  top: 74px;
-}
-
-#iconePrincipal {
-  top: 206px;
-  left: 119px;
-}
-
-#bntCopiarTexto {
-  left: 455px;
-
-}
-
-}
-
 @media (max-width: 768px)
 
 /*Tablet*/
@@ -474,4 +477,7 @@ textarea {
       left: 89px;
     }
   
+}
+
+
 }
